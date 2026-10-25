@@ -8,3 +8,4 @@ def count_words(text):
 
 if __name__ == "__main__":
     print(greet("Carlos"))
+    print(f"这句话里有 {count_words('Git 让每一次改动都可追溯')} 个词")
